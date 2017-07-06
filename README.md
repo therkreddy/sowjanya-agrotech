@@ -1,28 +1,28 @@
 # sowjanya-agrotech
 
-What is it ? 
+  ## What is it ? 
 
-   Essentially a backend service supporting Company website. 
+     Essentially a backend service supporting Company website. 
    
-   Designed like an Mvc app - on Run , this will serve the angular 4 client app (website) on start
+     MVC design - on Run , this will serve the angular 4 client app (website) on start
 
-Features:
+  ## Features:
 
-   1. Embedded container (tomcat)
+     1. Embedded container (tomcat)
    
-   2.  Gradle to Build  (Has unix style wrapper to run gradle tasks)
+     2.  Gradle to Build  (Has unix style wrapper to run gradle tasks)
 
-How To Run : 
+  ## How To Run : 
 
-   1. No App server needed to deploy. Root into project and ./gradlew bootRun
+     1. No App server needed to deploy. Root into project and ./gradlew bootRun
    
       (or)
    
-   2. Just Jar it and run (java -jar sowjanya-agrotech.jar) 
+     2. Just Jar it and run (java -jar sowjanya-agrotech.jar) 
    
      (or)
      
-   3. Export project to a WAR and deploy on your favorite server
+     3. Export project to a WAR and deploy on your favorite server
    
      
    
