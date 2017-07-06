@@ -11,5 +11,10 @@ import org.springframework.context.annotation.Configuration;
 @EnableAutoConfiguration
 @ComponentScan
 public class AppController {
+	
+	@RequestMapping("/namasthe")
+	public String namasthe() {
+		return "namasthe";
+	}
 
 }
